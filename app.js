@@ -1,15 +1,15 @@
 const prompt = require("prompt");
-const { code1, code2, code3 } = require("./cotd-bot");
+const { code1, code2, code3 } = require("./cotd");
 
 prompt.start();
 
 async function main() {
-  const { YYYY, MM, DD } = await prompt.get(["YYYY", "MM", "DD"]);
+  const { YY, MM, DD } = await prompt.get(["YY", "MM", "DD"]);
 
   console.log(`
-  Daily Code 1: ${code1(YYYY, MM, DD)}
-  Daily Code 2: ${code2(YYYY, MM, DD)}
-  Daily Code 3: ${code3(YYYY, MM, DD)}
+  Daily Code 1: ${code1(YY, MM, DD)}
+  Daily Code 2: ${code2(YY, MM, DD)}
+  Daily Code 3: ${code3(YY, MM, DD)}
   `);
 }
 

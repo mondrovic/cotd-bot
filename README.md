@@ -27,7 +27,7 @@ This script will generate 3 daily codes for legacy Dahua products from the comma
 
 ## Usage
 
-Launching the batch file will immediately prompt you to enter a year in YYYY format, e.g. 2021. After inputting the year, you'll need to input the 2-digit month and day afterwards. Make sure you're inputting only 2 digits as there's no logic to check if your input is correct.
+Launching the batch file will immediately prompt you to enter a year in YY format, e.g. 21 for year 2021. After inputting the year, you'll need to input the 2-digit month and day afterwards. Make sure you're inputting only 2 digits as there's no logic to check if your input is correct.
 
 Once the codes are generated, you can attempt to login to the machine. It's important to note you can only use these with a display and mouse connected to the recorder. You cannot use a computer. You can use the same code that lets you in to reset the password by filling out the old password field.
 
